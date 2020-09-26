@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nunito', sans-serif;
+}
+div#container{
+    position: relative;
+}
+
+/* ABOUT*/
+
+div#about{
+   width: 100%;
+   height: 100vh;
+   background-image: url("image/bg-masthead.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+div.nav{
+    display: flex;
+    font-weight: 700;
+   
+}
+.h2{
+    display: flex;
+    color: #f2f2f2;
+    padding: 20px 50px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+
+li{
+    padding: 25px;
+    font-size: 20px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: color 0.4s;
+}
+a:hover{
+    color: #ffffff;
+}
+
+ div.grayscale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: gray;
+}
+div.grayscale .h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 8px;
+
+}
+div.grayscale .p{
+    font-size: 24px;
+}
+ input.submit{
+     margin-top: 50px;
+     padding: 18px 40px;
+     font-weight: 600;
+     letter-spacing: 1px;
+     background-color: rgb(61, 122, 116);
+     color: #f2f2f2;
+     border-color: rgb(61, 122, 116);
+     border-radius: 5px;
+     cursor: pointer;
+     transition: opacity 0.4s;
+ }
+input:hover{
+    opacity: 0.8;
+}
+
+/*BOOTSTRAP*/
+
+div.bootstrap{
+    width: 100%;
+    height: 80vh;
+    background-image: url("image/ipad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100vh;
+    z-index: 1;
+    
+}
+div.black{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    top: 100vh;
+    z-index: 0;
+}
+div.bootstrap-text{
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    letter-spacing: 1px;
+}
+div.bootstrap-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+div.bootstrap-text p{
+    font-weight: 600;
+}
+
+/*PROJECTS*/
+
+div.projects{
+    width: 100%;
+    height: 250vh;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 180vh;
+}
+div.project-1{
+     display: flex;
+     margin-top: 120px;
+     margin-left: 100px;
+}
+div.project-1 img{
+    width: 60%;
+}
+div.item{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 130px;
+    padding-left: 50px;
+    font-size: 18px;
+    border-left: 7px solid rgb(61, 122, 116);
+}
+ div.project-2{
+     margin-top: 100px;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .all{
+     width: 40%;
+ }
+ div.item-2,div.item-3{
+     padding: 100px;
+     font-size: 18px;
+     background-color: black;
+     color: #f2f2f2;
+    }
+ div.item-3{
+     text-align: right;
+ }
+
+ /*CONTACT*/
+ div.contact{
+     width: 100%;
+     height: 120vh;
+     background-image: url("image/bg-signup.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 430vh;
+ }
+ div.icon-text{
+     color: #ffffff;
+     font-size: 40px;
+     text-align: center;
+     margin-top: 100px;
+ }
+input.email{
+    padding: 18px 200px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+div.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+div.box{
+   width: 25%;
+   height: 200px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin: 20px;
+   text-align: center;
+   
+}
+div.icon{
+    font-size: 30px;
+    color: rgb(61, 122, 116);
+    padding-top: 20px;
+}
+div.icon .p{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+div.border{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(61, 122, 116);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.box-2 a{
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+}
+div.box-2 a:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+
+div.footer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 540vh;
+    background-color: black;
+}
+div.footer{
+    text-align: center;
+}
+div.footer-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #f2f2f2;
+    background-color: rgb(20, 19, 19);
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-right: 20px;
+    padding: 5px;
+    transition: all 0.4s;
+}
+div.footer-icon:hover{
+    color: rgb(20, 19, 19);
+    background-color: #f2f2f2;
+}
+div.footer p{
+    color: #f2f2f2;
+    margin-top: 100px;
+}
+
